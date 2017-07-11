@@ -1,0 +1,75 @@
+{
+    "author": "Konstantin Beliakov",
+    "dependencies": {},
+    "keywords": [],
+    "name": "ecliptic",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Ecliptic",
+        "enableMultiJS": false,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/moon.png",
+                    "name": "MOON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/charge.png",
+                    "name": "CHARGE",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/menu.png",
+                    "menuIcon": true,
+                    "name": "MENU",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/saturn.png",
+                    "name": "SATURN",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/jupiter.png",
+                    "name": "JUPITER",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/mercury.png",
+                    "name": "MERCURY",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/mars.png",
+                    "name": "MARS",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/bt.png",
+                    "name": "BT",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/venus.png",
+                    "name": "VENUS",
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "40e2b243-7e1e-4f2e-bbe4-d2a6740017af",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.2.0"
+}
